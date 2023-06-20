@@ -1,0 +1,36 @@
+.search__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.search__form{
+    display: flex;
+    gap: 2em;
+}
+
+.search__input{
+    /* border: 1px solid rgb(0, 56, 84); */
+    background-color: rgb(216, 239, 250);
+    color: rgb(0, 56, 84);
+    border: none;
+    border-bottom: 2px solid rgb(0, 56, 84) ;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 5px 10px;
+}
+
+.search__button{
+    background-color: rgb(0, 56, 84) ;
+    color: aliceblue;
+    font-size: 1.3em;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+
+
+}

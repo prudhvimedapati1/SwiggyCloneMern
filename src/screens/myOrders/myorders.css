@@ -1,0 +1,51 @@
+
+
+.all__orders{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    min-height: 100vh;
+}
+
+.food__items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food__item{
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(216, 239, 250);
+    width: 250px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+}
+
+.food__item img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    filter: brightness(80%);
+}
+
+.food__title{
+    font-size: 1.2em;
+}
+
+.food__details{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.order__date{
+    width: 100vw;
+    font-size: 1.5em;
+    color: rgb(0, 56, 84);
+    background-color: rgb(216, 239, 250);
+    padding: 10px 30px;
+    border-bottom: 1px solid rgb(0, 56, 84);
+}
